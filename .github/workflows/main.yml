@@ -28,3 +28,4 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/laravel-vapor-wkhtmltopdf:${{ github.head_ref || github.ref_name }}
           platforms: linux/arm64
+          build-arg: __VAPOR_RUNTIME=docker-arm
