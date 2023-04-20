@@ -1,5 +1,3 @@
-ARG VAPOR_RUNTIME=docker-arm
-
 FROM surnet/alpine-wkhtmltopdf:3.9-0.12.5-full as wkhtmltopdf
 
 FROM laravelphp/vapor:php82-arm
