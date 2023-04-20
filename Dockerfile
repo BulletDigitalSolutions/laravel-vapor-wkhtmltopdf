@@ -1,6 +1,6 @@
 FROM surnet/alpine-wkhtmltopdf:3.9-0.12.5-full as wkhtmltopdf
 
-FROM laravelphp/vapor:php81
+FROM laravelphp/vapor:php82-arm
 
 RUN apk add --no-cache \
   libstdc++ \
